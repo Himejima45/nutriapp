@@ -22,10 +22,10 @@ async function openRoute(Page,elmnt){
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].style.backgroundColor = "";
-        tablinks[i].style.color = "rgb(255 255 255 / 79%)";
+        tablinks[i].style.color = "rgba(0 191 255)";
     }
-    elmnt.style.backgroundColor = "#5656f6a3";
-    elmnt.style.color = "rgb(255 255 255/200%)";
+    elmnt.style.backgroundColor = "";
+    elmnt.style.color = "rgba(0 191 255)";
     elmnt.style.borderRadius = "4px"
     if (document.documentElement.clientWidth < 750) {
         document.getElementById("mySidenav").style.opacity = "0";

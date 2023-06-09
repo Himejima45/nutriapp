@@ -1,18 +1,10 @@
-# TabbedWebApp
-## A lightweight 🪶, blazingly fast 🚀, tabbed web app📱.
-### Built with JS and HTML
 <hr></hr>
 
-See the [demo](https://tabbed.web.app/demo)
+See the [demo](https://himejima45.github.io/nutriapp/index.html)
 <br></br>
-## Instructions
-1. Make Sure to edit the manifest.json file to incorprate your app  information.
-2. You can add small buttons on the header, to make the app useful as a pwa. *Just make sure you copy the buttons already given for matching aesthetics.*
-3. Edit the appshellfiles variable in the service worker to add your newly created files to cache, also make sure to edit the version no. befor every deploy.
-4.  I Strongly suggest making the foreground and background of your app icon seperately, and later combine them in [Maskable App](https://maskable.app/editor)
-
-> A project by Havis V H 👨🏽‍💻
+## Instruccion
+1. Asegúrate de editar el archivo manifest.json para incorporar la información de la aplicación.
+2. Puede agregar pequeños botones en el encabezado para que la aplicación sea útil como pwa. * Solo asegúrese de copiar los botones ya dados para que coincida con la estética.*
+3. Edite la variable appshellfiles en el trabajador de servicio para agregar los archivos recién creados a la memoria caché, asegúrese también de editar la versión no. para cada implementación.
 
 <br></br>
-
-**That's All folks**

@@ -1,16 +1,16 @@
 :root {
-  --accent: #5656f6;
-  --text: white;
+  --accent: #00BFFF;;
+  --text: #000000;
   --sub: #ffffffa6;
   cursor: default;
   image-rendering: auto;
 }
 
 html {
-  color: #fff;
+  color: #000000;
   margin: 0;
   align-items: flex-start;
-  scrollbar-color: var(--text) #474747;
+  scrollbar-color: var(--text) #00BFFF;
   scrollbar-width: thin;
   font-family: Poppins, sans-serif;
   animation: gradient 10s ease infinite;
@@ -22,7 +22,7 @@ html {
   margin: 0;
   height: 100vh;
   transition: 0.4s;
-  background: #111;
+  background: #FFFFFF;
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   overflow: hidden;
@@ -41,7 +41,7 @@ html {
   z-index: 31;
   top: 0;
   left: 0;
-  background-color: #21212100;
+  background-color: #ffffff;
   overflow-x: hidden;
   transition: 0.4s;
   backdrop-filter: blur(6px);
@@ -52,7 +52,7 @@ html {
   padding: 10px 4px 8px 20px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #00BFFF;;
   transition: 0.3s;
 }
 
@@ -78,7 +78,7 @@ html {
 }
 
 .side-button P {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   margin: 0;
   padding-left: 1vw;
@@ -86,7 +86,7 @@ html {
 
 .side-button:hover {
   transform: translate(4px, -2px);
-  background-color: #282828;
+  background-color: #00BFFF;
   border-radius: 4px;
 }
 
@@ -95,6 +95,7 @@ html {
   cursor: pointer;
   margin: 9px;
   border-radius: 4px;
+  
 }
 
 .sidenav .closebtn {
@@ -117,7 +118,7 @@ html {
 }
 
 .tablink:hover {
-  background-color: rgba(253, 253, 253, 0.212);
+  background-color: rgb(0, 0, 0);
 }
 
 .main {
@@ -149,6 +150,7 @@ header {
   justify-content: flex-end;
   align-items: flex-start;
   align-content: flex-end;
+  
 }
 
 .dev_button_mobile {
@@ -157,14 +159,14 @@ header {
   margin: 4px;
   border-radius: 15px;
   border: none;
-  background: #161618;
+  background: #00BFFF;
   border: 0.2px #292929 solid;
   color: #fff;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* position: absolute;
-    right: 12px; */
+  position: absolute;
+  right: 12px; 
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -182,7 +184,7 @@ header {
   transition: 0.2s;
   display: flex;
   overflow: scroll;
-  background-color: #29292977;
+  background-color: #FFFFFF;
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: center;
@@ -195,7 +197,7 @@ header {
   width: 73vw;
   margin: 12px;
   border-radius: 6px;
-  box-shadow: 4px 7px 12px 0 #000000d4;
+  box-shadow: 4px 7px 12px 0 #FFF;
   position: absolute;
 }
 
@@ -218,7 +220,7 @@ header {
 }
 
 ::-webkit-scrollbar-corner {
-  color: #000;
+  color: #FFFFFF;
 }
 
 @media screen and (max-height: 450px) {
@@ -258,12 +260,12 @@ header {
 }
 
 .dev_button:hover .accent {
-  color: #fff;
+  color: #00BFFF;
 }
 
 a {
   text-decoration: none;
-  color: #5656f6;
+  color: #00BFFF;
   transition: 0.3s;
 }
 
@@ -281,7 +283,7 @@ hr {
 a:hover {
   color: var(--accent);
   text-shadow: -1px 1px 12px var(--accent);
-  background: linear-gradient(121deg, var(--accent), #ca00ff);
+  background: linear-gradient(121deg, var(--accent), #00BFFF);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -302,6 +304,7 @@ a:hover {
 
   #main {
     margin-left: 0;
+    color:#00BFFF;
   }
 
   .tabcontent {
@@ -330,7 +333,7 @@ a:hover {
     flex-wrap: wrap;
     align-content: center;
     padding: 0 0 0 20px;
-    background: #161618;
+    background: #ffffff;
     background-size: 400% 400%;
     align-items: center;
     justify-content: flex-start;
@@ -341,4 +344,13 @@ a:hover {
     cursor: pointer;
     margin: 9px;
   }
+}
+.progress{
+height: 1rem;
+font-size: 75;
+border-radius: 12px;
+box-shadow :inset;
+color: white;
+animation: 1s linear infinite;
+transition: .6s ease;
 }

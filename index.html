@@ -18,26 +18,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="icons/favicon-16x16.png">
+    <link rel="icon" href="favicon.ico">
     <title>NutriApp</title>
 </head>
 
 <body class="body">
     <div id="mySidenav" class="sidenav">
-        <div style="    background: #101010;
-    border-bottom: 2px solid #4c4c4c;
+        <div style="    background: #F8F8FF;
+    border-bottom: 2px solid #40E0D0;
     margin-bottom: 21px;
     height: 124px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;">
-            <h3 style="font-weight:100;margin: 0px;">&nbsp;Fitness y Nutrición</h3>
+            <h3 style="font-weight:100;margin: 0px; color: #000000;">&nbsp;Fitness y Nutrición</h3>
 
             <span href="javascript:void(0)" class=" material-symbols-rounded closebtn" onclick="closeNav()"
                 aria-label="close sidebar" id="NOEXCUSE">cancel</span>
-            <p style="color:#f1f1f1a3;font-size: 14px;text-align: center;">¡Una Vida Sana!</p>
-            <picture> <img src="icons/android x 48.png" alt=""></picture>
+            <p style="color:#000;font-size: 14px;text-align: center;">¡Una Vida Sana!</p>
+            <picture> <img src="icons/icon_x48.png" alt=""></picture>
         </div>
         <div class="side-button tablink" onclick="openRoute('home',this)" id="defaultOpen" aria-label="open home page">
             <span class="material-symbols-rounded">home</span>
@@ -65,7 +65,7 @@
                 menu
             </span>
             <span id="offlineA"
-                style="color: red;display: none;flex-wrap: wrap;flex-direction: row;align-content: center;align-items: center;justify-content: center;">&nbsp;
+                style="color: blue;display: none;flex-wrap: wrap;flex-direction: row;align-content: center;align-items: center;justify-content: center;">&nbsp;
                 <span class="material-symbols-rounded">wifi_off</span></span>
             <div class="headerButtonContainer">
                 <button class="dev_button_mobile" id="installMobile" onclick="pwainstall()"
@@ -75,7 +75,7 @@
             <button class="dev_button_mobile" onclick="share()" aria-label="share the app">
                 <span class="material-symbols-rounded clickable" style="font-size:18px">share</span>
             </button>
-            <button class="dev_button_mobile" id="gotohomepage" onclick="goTo('TWA')"
+            <button class="dev_button_mobile" id="gotohomepage" onclick="goTo('')"
                 aria-label="go to Tabbed.web.app">
                 <span class="material-symbols-rounded clickable" style="font-size:18px">person</span>
             </button>
@@ -93,6 +93,8 @@
         </script>
         <script src="tab.min.js"></script>
         <script src="ButtonFunctions.js"></script>
+        <script src="bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
     </div>
 </body>
 

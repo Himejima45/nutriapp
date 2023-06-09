@@ -5,8 +5,8 @@ var appshellfiles = [
     '/index.html',
     '/home.html',
     '/counterPage.html',
-    '/github.html',
-    '/info.html',
+    '/DataCheck.html',
+    '/execise.html',
     '/tab.min.js', '/save.min.css', '/manifest.json', '/logo.png',
 'fonts/MatSymbolsRounded.woff2', 'fonts/Poppins-Medium.ttf'
 
